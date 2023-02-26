@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "SharpSvn.1.9-x64/1.9007.3987.251": {
+        "type": "package",
+        "compile": {
+          "lib/net40/SharpSvn.UI.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net40/SharpSvn.dll": {
+            "related": ".pdb;.UI.pdb;.UI.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/SharpSvn.UI.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net40/SharpSvn.dll": {
+            "related": ".pdb;.UI.pdb;.UI.xml;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharpSvn.1.9-x64/1.9007.3987.251": {
+      "sha512": "dxHeCpj5QTzHlXi7dygPGCwNtWoBu7KHT7jzNvRyc1znPppurcxobbo3XvyutrovfhBJU+Zg75uuVtGVW5BB1A==",
+      "type": "package",
+      "path": "sharpsvn.1.9-x64/1.9007.3987.251",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/SharpPlink-x64.pdb",
+        "lib/net20/SharpPlink-x64.svnExe",
+        "lib/net20/SharpSvn-DB44-20-x64.svnDll",
+        "lib/net20/SharpSvn.UI.dll",
+        "lib/net20/SharpSvn.UI.pdb",
+        "lib/net20/SharpSvn.UI.xml",
+        "lib/net20/SharpSvn.dll",
+        "lib/net20/SharpSvn.pdb",
+        "lib/net20/SharpSvn.xml",
+        "lib/net40/SharpPlink-x64.pdb",
+        "lib/net40/SharpPlink-x64.svnExe",
+        "lib/net40/SharpSvn-DB44-20-x64.svnDll",
+        "lib/net40/SharpSvn.UI.dll",
+        "lib/net40/SharpSvn.UI.pdb",
+        "lib/net40/SharpSvn.UI.xml",
+        "lib/net40/SharpSvn.dll",
+        "lib/net40/SharpSvn.pdb",
+        "lib/net40/SharpSvn.xml",
+        "sharpsvn.1.9-x64.1.9007.3987.251.nupkg.sha512",
+        "sharpsvn.1.9-x64.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "SharpSvn.1.9-x64 >= 1.9007.3987.251"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\zhang\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\VSProjects\\SVNClone\\SVNClone\\SVNClone.csproj",
+      "projectName": "SVNClone",
+      "projectPath": "D:\\VSProjects\\SVNClone\\SVNClone\\SVNClone.csproj",
+      "packagesPath": "C:\\Users\\zhang\\.nuget\\packages\\",
+      "outputPath": "D:\\VSProjects\\SVNClone\\SVNClone\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\zhang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "SharpSvn.1.9-x64": {
+            "target": "Package",
+            "version": "[1.9007.3987.251, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0”还原包“SharpSvn.1.9-x64 1.9007.3987.251”。此包可能与项目不完全兼容。",
+      "libraryId": "SharpSvn.1.9-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

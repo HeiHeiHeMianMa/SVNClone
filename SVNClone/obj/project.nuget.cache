@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "tUe/kHQvElRAr1d/bjGfA86JjiDzm4XTVwr8B18cOmFjzNXJW2V2a0qD3ai7TbNQmWcqBS0wh3tB8DbQfSQVMA==",
+  "success": true,
+  "projectFilePath": "D:\\VSProjects\\SVNClone\\SVNClone\\SVNClone.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zhang\\.nuget\\packages\\sharpsvn.1.9-x64\\1.9007.3987.251\\sharpsvn.1.9-x64.1.9007.3987.251.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net6.0”还原包“SharpSvn.1.9-x64 1.9007.3987.251”。此包可能与项目不完全兼容。",
+      "libraryId": "SharpSvn.1.9-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
